@@ -1,4 +1,4 @@
-﻿﻿# Site settings
+﻿# Site settings
 title: LJQ Blog
 SEOTitle: 刘继强的博客 | LJQ Blog
 header-img: img/post-bg-desk.jpg
@@ -12,7 +12,7 @@ github_repo: " https://github.com/29DCH/29DCH.github.io.git" # you code reposito
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "景景景景景色分明"
-sidebar-avatar: /img/sea.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/neo.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -113,3 +113,4 @@ friends: [
         href: "https://hijiangtao.github.io/"
     }
 ]
+
