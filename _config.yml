@@ -1,0 +1,115 @@
+﻿# Site settings
+title: LJQ Blog
+SEOTitle: 刘继强的博客 | LJQ Blog
+header-img: img/post-bg-desk.jpg
+email: 2265940560@qq.com
+description: "此生无悔入软工 | 刘继强，BigData & ML Lover，a software engineering student| 这里是刘继强的个人博客，梦想探索更大的计算机世界！"
+keyword: "LJQ, 刘继强的博客, LJQ Blog, 博客, 个人网站, 互联网, Web, JavaScript, BigData, 后端, ML, AI"
+url: "https://29DCH.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: " https://github.com/29DCH/29DCH.github.io.git" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "景景景景景色分明"
+sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# SNS settings
+RSS: false
+weibo_username:     29DCH
+zhihu_username:     ZQDCH
+github_username:    29DCH
+QQ:    2265940560
+WeChat:    isco
+#facebook_username:
+#jianshu_username:
+#twitter_username:
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username:
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
+  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
+  repo: 29DCH.github.io    #仓库名称
+  owner: 29DCH    #github用户名
+  admin: 29DCH
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: b50bf2b12b5338a1845e33832976fd68
+
+# Google Analytics
+ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+ga_domain:   auto             # 默认的是 auto
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "RainbomSea",
+        href: "http://RainbomSea.github.io"
+    },{
+        title: "Hux Blog",
+        href: "https://huangxuan.me/"
+    },{
+        title: "柏荧的博客 | BY Blog",
+        href: "http://qiubaiying.top/"
+    },{
+        title: "Joe's Blog",
+        href: "https://hijiangtao.github.io/"
+    }
+]
