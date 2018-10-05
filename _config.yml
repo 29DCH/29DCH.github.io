@@ -3,7 +3,7 @@ title: LJQ Blog
 SEOTitle: 刘继强的博客 | LJQ Blog
 header-img: img/post-bg-desk.jpg
 email: 2265940560@qq.com
-description: "此生无悔入软工 | 刘继强，BigData & ML Lover，a software engineering student| 这里是刘继强的个人博客，梦想探索更大的计算机世界！"
+description: "此生无悔入软工! | 刘继强，BigData & ML Lover，a software engineering student| 这里是刘继强的个人博客，梦想探索更大的计算机世界！"
 keyword: "LJQ, 刘继强的博客, LJQ Blog, 博客, 个人网站, 互联网, Web, JavaScript, BigData, 后端, ML, AI"
 url: "https://29DCH.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -79,8 +79,8 @@ gitalk:
 # ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain:   auto             # 默认的是 auto
+# ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+# ga_domain:   auto             # 默认的是 auto
 
 
 
