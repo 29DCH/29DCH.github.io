@@ -12,7 +12,7 @@ github_repo: " https://github.com/29DCH/29DCH.github.io.git" # you code reposito
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "景景景景景色分明"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/neo.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -76,7 +76,7 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+# ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
 ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
