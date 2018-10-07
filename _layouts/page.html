@@ -102,9 +102,10 @@ layout: default
                 <section class="visible-md visible-lg">
                     <hr><h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
                     <div class="short-about">
-                        {% if site.sidebar-avatar %}
+                        {% if site.sidebar-avatar and site.sidebar-avatar1 %}
                             <a href="{{ site.baseurl }}/about">
                                 <img src="{{site.sidebar-avatar}}"/>
+				<img src="{{site.sidebar-avatar1}}"/>
                             </a>
                         {% endif %}
                         {% if site.sidebar-about-description %}
