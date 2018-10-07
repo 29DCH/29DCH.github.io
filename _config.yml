@@ -13,7 +13,7 @@ github_repo: " https://github.com/29DCH/29DCH.github.io.git" # you code reposito
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "景景景景景色分明"
 sidebar-avatar: /img/panda-waving.png      # use absolute URL, seeing it's used in both `/` and `/about/`
-
+sidebar-avatar1: /img/grass.png
 
 
 # SNS settings
