@@ -32,11 +32,11 @@ layout: default
                 col-md-10 col-md-offset-1
                 sidebar-container">
 
-                <!-- Featured Tags -->
+                <!-- Featured Tags Cloud-->
                 {% if site.featured-tags %}
                 <section>
                     <!-- no hr -->
-                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
+                    <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TAGS CLOUD</a></h5>
                     <div class="tags">
         				{% for tag in site.tags %}
                             {% if tag[1].size > {{site.featured-condition-size}} %}
