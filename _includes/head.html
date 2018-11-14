@@ -8,10 +8,10 @@
     <meta name="theme-color" content="{{ site.chrome-tab-theme-color }}">
     
     <title>{% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}</title>
-　　 
+　　 <link href="{{ "/css/tagcloud.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+    
     <!-- Feature Tag Cloud -->
     <script src="{{ "/js/tagcloud.min.js" | prepend: site.baseurl }}"></script>
-    <link href="{{ "/css/tagcloud.min.css" | prepend: site.baseurl }}" rel="stylesheet">
     <script>tagcloud({radius:60})</script>
     
     <!-- Web App Manifest -->
