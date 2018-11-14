@@ -97,7 +97,25 @@ layout: default
                     </div>
                 </section>
                 {% endif %}
-
+		    
+	      <!-- FEATURED TAGS CLOUD -->
+		<script src="{{ "/js/tagcloud.min.js" | prepend: site.baseurl }}"></script>
+                <link href="{{ "/css/tagcloud.min.css" | prepend: site.baseurl }}" rel="stylesheet">
+                {% if site.featured-tags %}
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+		    <div class="tagcloud">
+			    {% for tag in site.tags %}
+                            {% if tag[1].size > {{site.featured-condition-size}} %}
+                                <a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
+                                    {{ tag[0] }}
+                                </a>
+                            {% endif %}
+                        {% endfor %}
+                      </div>
+                </section>
+                {% endif %}
+		    
                 <!-- Short About -->
                 <section class="visible-md visible-lg">
                     <hr><h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
