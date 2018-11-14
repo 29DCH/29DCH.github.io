@@ -99,9 +99,13 @@ layout: default
                 {% endif %}
 		 
 		  <!-- FEATURED TAGS CLOUD -->
+		  <!-- Feature Tag Cloud -->
+                <script src="{{ "/js/tagcloud.min.js" | prepend: site.baseurl }}"></script>
+                <script>tagcloud({radius:60})</script>
                 {% if site.featured-tags %}
                 <section>
                     <hr class="hidden-sm hidden-xs">
+		<div style="visibility: visible; position: relative; min-height: 190px; min-width: 190px;">
 		    <div class="tagcloud">
 			    {% for tag in site.tags %}
                             {% if tag[1].size > {{site.featured-condition-size}} %}
@@ -111,6 +115,7 @@ layout: default
                             {% endif %}
                         {% endfor %}
                       </div>
+			</div>
                 </section>
                 {% endif %}
 		    
