@@ -1,7 +1,3 @@
-
-<div align="center"> <img src="https://github.com/qiubaiying/qiubaiying.github.io/img/BY_bolg_logo.png" width="600"/> </div><br>
-
-
 ![](https://github.com/29DCH/29DCH.github.io/blob/master/img/readme-home.png)
 
 [![Build Status](https://travis-ci.org/qiubaiying/qiubaiying.github.io.svg?branch=master)](https://travis-ci.org/qiubaiying/qiubaiying.github.io)
