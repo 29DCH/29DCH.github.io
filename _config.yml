@@ -101,7 +101,7 @@ service-worker: true
 friends: [
     {
         title: "suyeq",
-        href: "suyeq.blog.com"
+        href: "http://blog.suyeq.com/"
     },
     {
         title: "RainbomSea",
