@@ -100,6 +100,10 @@ service-worker: true
 # Friends
 friends: [
     {
+        title: "suyeq",
+        href: "suyeq.blog.com"
+    },
+    {
         title: "RainbomSea",
         href: "http://RainbomSea.github.io"
     },{
