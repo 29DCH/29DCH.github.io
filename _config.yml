@@ -114,5 +114,8 @@ friends: [
     },{
         title: "Joe's Blog",
         href: "https://hijiangtao.github.io/"
+    },{
+        title: "老王之家",
+        href: "http://wangbf.top/"
     }
 ]
